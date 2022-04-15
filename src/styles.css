@@ -1,0 +1,82 @@
+body {
+  font-family: "Cinzel", serif;
+  background-image: url("../assets/back1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+header {
+  background-image: url("../assets/flag.png");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.spicy:before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-image: url("../assets/spicy.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 3px;
+  position: relative;
+  top: 2px;
+}
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  padding: 30px;
+}
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+h2 {
+  color: black;
+  border-radius: 10px;
+  font-family: "Brush Script MT", serif;
+  font-size: 2rem;
+}
+
+.menu-item.hidden {
+  display: none;
+}
+
+.menu-item {
+  display: block;
+}
+.item-name {
+  display: inline-block;
+}
+.item-price {
+  float: right;
+}
+
+.item-description {
+  margin-top: 0;
+}
+
+.spicy-form {
+  float: right;
+  margin: 40px;
+}
